@@ -1,3 +1,4 @@
+import dummy from "@/assets/dummy.png";
 export const listings = [
     {
         id: 1,
@@ -9,7 +10,7 @@ export const listings = [
         departments: ["Trường CNTT và Truyền Thông"],
         description: `Học bổng dành cho sinh viên Công nghệ Thông tin có kết quả học tập xuất sắc…
 Áp dụng cho K69, K68. Ưu tiên sinh viên tham gia nghiên cứu khoa học.`,
-        images: ["/src/assets/dummy.png", "/src/assets/dummy.png", "/src/assets/dummy.png"],
+        images: [dummy, dummy, dummy],
     },
     {
         id: 2,
@@ -21,7 +22,7 @@ export const listings = [
         departments: ["Trường Sư Phạm", "Trường CNTT và Truyền Thông"],
         description: `Gia sư kèm học sinh lớp 9, 3 buổi/tuần, mỗi buổi 2 giờ.
 Yêu cầu: điểm Toán > 8, có kỹ năng sư phạm. Áp dụng cho sinh viên K67–K65.`,
-        images: ["/src/assets/dummy.png"],
+        images: [dummy, dummy, dummy],
     },
     {
         id: 3,
@@ -33,7 +34,7 @@ Yêu cầu: điểm Toán > 8, có kỹ năng sư phạm. Áp dụng cho sinh vi
         departments: ["Ngành Vật Liệu"],
         description: `Hỗ trợ giám sát thí nghiệm, chuẩn bị mẫu, nhập dữ liệu.
 Ưu tiên sinh viên nắm vững an toàn phòng thí nghiệm và GPA ≥ 2.8.`,
-        images: ["/src/assets/dummy.png"],
+        images: [dummy, dummy, dummy],
     },
     {
         id: 4,
@@ -45,6 +46,6 @@ Yêu cầu: điểm Toán > 8, có kỹ năng sư phạm. Áp dụng cho sinh vi
         departments: ["Trường Điện-Điện Tử", "Trường Cơ Khí"],
         description: `Học bổng cho sinh viên khối Kỹ thuật có dự án nghiên cứu nổi bật.
 Yêu cầu GPA ≥ 3.0 và thư giới thiệu từ giảng viên.`,
-        images: ["/src/assets/dummy.png"],
+        images: [dummy, dummy, dummy],
     },
 ];
